@@ -1,0 +1,8 @@
+{
+  "name": "game-with-phaser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Georjane/game-with-phaser.git",
+  "author": "Georjane <pzgeorjane@gmail.com>",
+  "license": "MIT"
+}
