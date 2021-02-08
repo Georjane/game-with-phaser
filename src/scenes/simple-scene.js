@@ -1,6 +1,6 @@
 export class SimpleScene extends Phaser.Scene {
   preload() {
-    this.load.image('rose', 'assets/rose.jpng');
+    this.load.image('rose', 'assets/rose.jpg');
   }
 
   create() {
