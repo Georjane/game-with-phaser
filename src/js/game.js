@@ -9,7 +9,13 @@ var config = {
       gravity: { x: 0, y: 0 }
     }
   },
-  scene: [],
+  scene: [
+    SceneMainMenu,
+    SceneMain,
+    SceneGameOver
+  ],
   pixelArt: true,
   roundPixels: true
 };
+
+var game = new Phaser.Game(config);
