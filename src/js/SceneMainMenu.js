@@ -50,7 +50,7 @@ class SceneMainMenu extends Phaser.Scene {
       this.scene.start("SceneMain");
     }, this);
 
-    this.title = this.add.text(this.game.config.width * 0.5, 128, "SPACE SHOOTER", {
+    this.title = this.add.text(this.game.config.width * 0.5, 128, "MY SPACE SHOOTER", {
       fontFamily: 'monospace',
       fontSize: 48,
       fontStyle: 'bold',
@@ -58,6 +58,14 @@ class SceneMainMenu extends Phaser.Scene {
       align: 'center'
     });
     this.title.setOrigin(0.5);
+    this.title1 = this.add.text(this.game.config.width * 0.5, 180, "ADVENTURES", {
+      fontFamily: 'monospace',
+      fontSize: 48,
+      fontStyle: 'bold',
+      color: '#ffffff',
+      align: 'center'
+    });
+    this.title1.setOrigin(0.5);
 
     this.backgrounds = [];
     for (var i = 0; i < 5; i++) {
@@ -66,7 +74,6 @@ class SceneMainMenu extends Phaser.Scene {
       var bg = new ScrollingBackground(this, key, i * 10);
       this.backgrounds.push(bg);
     }
-    // this.scene.start("SceneMain");
   }
 
   update() {

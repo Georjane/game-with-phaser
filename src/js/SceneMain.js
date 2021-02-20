@@ -1,10 +1,11 @@
 class SceneMain extends Phaser.Scene {
   constructor() {
     super({ key: "SceneMain" });
+    this.score = 0,
+    this.scoreText;
   }
   preload() {
-    
-    
+      
     this.load.audio("sndExplode0", "content/sndExplode0.wav");
     this.load.audio("sndExplode1", "content/sndExplode1.wav");
     this.load.audio("sndLaser", "content/sndLaser.wav");
@@ -58,6 +59,9 @@ class SceneMain extends Phaser.Scene {
       repeat: -1
     });
 
+    this.scoreText = this.add.text(16, 16, 'score: 0', { fontSize: '32px', fill: '#ff0000' });
+
+
     this.sfx = {
       explosions: [
         this.sound.add("sndExplode0"),
@@ -93,7 +97,7 @@ class SceneMain extends Phaser.Scene {
       delay: 1000,
       callback: function() {
         var enemy = null;
-
+        
         if (Phaser.Math.Between(0, 10) >= 3) {
           enemy = new GunShip(
             this,
@@ -103,6 +107,8 @@ class SceneMain extends Phaser.Scene {
         }
         else if (Phaser.Math.Between(0, 10) >= 5) {
           if (this.getEnemiesByType("ChaserShip").length < 5) {
+            this.score += 100;
+            this.scoreText.setText('Score: ' + this.score);
     
             enemy = new ChaserShip(
               this,
@@ -129,6 +135,7 @@ class SceneMain extends Phaser.Scene {
     });
 
     this.physics.add.collider(this.playerLasers, this.enemies, function(playerLaser, enemy) {
+      
       if (enemy) {
         if (enemy.onDestroy !== undefined) {
           enemy.onDestroy();
@@ -136,6 +143,9 @@ class SceneMain extends Phaser.Scene {
       
         enemy.explode(true);
         playerLaser.destroy();
+        
+        // this.score += 10;
+        // this.scoreText.setText('Score: ' + this.score);
       }
     });
 
@@ -199,7 +209,7 @@ class SceneMain extends Phaser.Scene {
           if (enemy.onDestroy !== undefined) {
             enemy.onDestroy();
           }
-    
+          
           enemy.destroy();
         }
     
