@@ -1,39 +1,3 @@
-
-# 
-
-
-
-## Requirements
-
-[Node.js](https://nodejs.org) is required to install dependencies and run scripts via `npm`.
-
-## Available Commands
-
-| Command | Description |
-|---------|-------------|
-| `npm install` | Install project dependencies |
-| `npm start` | Build project and open web server running project |
-| `npm run build` | Builds code bundle with production settings (minification, uglification, etc..) |
-
-## Writing Code
-
-After cloning the repo, run `npm install` from your project directory. Then, you can start the local development server by running `npm start`.
-
-After starting the development server with `npm start`, you can edit any files in the `src` folder and webpack will automatically recompile and reload your server (available at `http://localhost:8080` by default).
-
-## Customizing the Template
-
-### Webpack
-
-If you want to customize your build, such as adding a new webpack loader or plugin (i.e. for loading CSS or fonts), you can modify the `webpack/base.js` file for cross-project changes, or you can modify and/or create new configuration files and target them in specific npm tasks inside of `package.json'.
-
-## Deploying Code
-
-After you run the `npm run build` command, your code will be built into a single bundle located at `dist/bundle.min.js` along with any other assets you project depended. 
-
-If you put the contents of the `dist` folder in a publicly-accessible location (say something like `http://mycoolserver.com`), you should be able to open `http://mycoolserver.com/index.html` and play your game.
-
-
 # My Shooter Game with Phaser 3
 In this project, I was asked to build a platform game such as the space shooter game. I designed a simple but creative game and implement it using Phaser. 
 A user is able to search for a specific location's weather information and toggle displaying the data in Fahrenheit or Celsius.
@@ -49,6 +13,17 @@ A user is able to search for a specific location's weather information and toggl
 - Webpack
 - HTML
 - JavaScript
+
+## Game Design Document
+- We set up the basis for our scene files: SceneMainMenu.js, SceneMain.js, and SceneGameOver.js. We can run the game by navigating to localhost/(game folder name)/index.html.
+The SceneMainMenu is a welcome page that displays the game title name and a button to start playing the game.
+The SceneMain contains the logic of the game. It gives the player the ability to move up, down, left and right with the keyboard keys W, S, A and D respectively.
+- We implemented a couple enemies and give them basic AI.
+We have 3 types of enemies, the Chasership, Carriership, Gunship.
+The Chasership chases after the player and you get a score of 100 per each Chaser ship. If this ship is not killed before it reaches you, you will be death upon collision in the game.
+The Carriership just moves around but if you collide with it, you are dead in the game off course.
+The Gunships are out for blood. They shoot mercilessly.
+
 
 ## Getting Started
 To get a local copy of the repository please run the following commands on your terminal:
