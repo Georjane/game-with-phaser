@@ -1,63 +1,157 @@
-# My Shooter Game with Phaser 3
-In this project, I was asked to build a platform game such as the space shooter game. I designed a simple but creative game and implement it using Phaser. 
-A user is able to search for a specific location's weather information and toggle displaying the data in Fahrenheit or Celsius.
+<!--
+*** Thanks for checking out this README Template. If you have a suggestion that would
+*** make this better, please fork the repo and create a pull request or simply open
+*** an issue with the tag "enhancement".
+*** Thanks again! Now go create something AMAZING! :D
+-->
 
-## ShooterGame Screenshot
-![](spaceshooter.png)
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![Contributors][contributors-shield]][contributors-url] 
+[![Forks][forks-shield]][forks-url] 
+[![Stargazers][stars-shield]][stars-url] 
+[![Issues][issues-shield]][issues-url] 
+![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg) 
 
-## Live Link
-- [ShooterGame]()
+# Dung-Salvation-Shooter-Game-JS
 
-## Built With
-- Phaser 3
-- Webpack
-- HTML
-- JavaScript
+>  Shooter game built with Javascript using Phaser and Webpack. Capstone Project for Microverse on the top of my Javascript knowledge.
+
+Landing Page:
+![screenshot](./assets/screenshots/title.png)
+
+First Stage:
+![screenshot](./assets/screenshots/game.png)
+
+Animated GIF:
+![](game.gif)
 
 ## Game Design Document
-- We set up the basis for our scene files: SceneMainMenu.js, SceneMain.js, and SceneGameOver.js. We can run the game by navigating to localhost/(game folder name)/index.html.
-The SceneMainMenu is a welcome page that displays the game title name and a button to start playing the game.
-The SceneMain contains the logic of the game. It gives the player the ability to move up, down, left and right with the keyboard keys W, S, A and D respectively.
-- We implemented a couple enemies and give them basic AI.
-We have 3 types of enemies, the Chasership, Carriership, Gunship.
-The Chasership chases after the player and you get a score of 100 per each Chaser ship. If this ship is not killed before it reaches you, you will be death upon collision in the game.
-The Carriership just moves around but if you collide with it, you are dead in the game off course.
-The Gunships are out for blood. They shoot mercilessly.
+
+Kindly check my Game Design Document [GDD](assets/docs/gamedesigndocument.md)
+
+## Built With
+
+- HTML 
+- CSS
+- JAVASCRIPT
+- PHASER 3
+- NPM
+- WEBPACK
+- EXPRESS
+- BOOTSTRAP
+- JEST
+- GITHUB ACTIONS
+
+## Live Demo
+
+[Live Demo Link](https://javitocor.github.io/Dung-Salvation-Shooter-Game-JS/) :point_left:
+
+## Instructions to Play
+
+- Click the option you want in the Landing Scene.
+
+- Press 'Play' to start playing.
+
+- Press 'Options' to enable/disable sound features.
+
+- Press 'Credits' to see who made it possible.
+
+- Press 'Leaders' to see the 5 best scores.
+
+- To play you need the Keyboard and the Mouse.
+
+- CONTROLS:
+
+  - Press 'A' to move LEFT.
+
+  - Press 'D' to move RIGHT.
+
+  - Press 'W' to move UP.
+
+  - Press 'S' to move DOWN.
+
+  - Press 'SpaceBar' to SHOOT.
+
+- Use the mouse for the non-game and dialogues screens.
+
+- ENJOY!
 
 
 ## Getting Started
-To get a local copy of the repository please run the following commands on your terminal:
-```
-$ git clone https://github.com/Georjane/game-with-phaser.git
-$ cd game-with-phaser
-```
-Then open index.html file
 
+### Usage
+
+- Click the Live Demo link and enjoy playing Dung Salvation.
+
+### Prerequisites
+
+- A modern browser, up to date.  :muscle:
+
+### Setup
+
+- Clone the repository on your local machine
+- Cd into the folder
+- Run `npm install`
+- Run `npm start`
+- On your browser, make sure you point to the right address (i.e: http://localhost:8080/)
+
+### Run tests
+
+- Run ```npm test``` on the root directory to run all the tests.
+- Run `npm test -- --verbose` on the root directory to run all the tests and see for what it is each test.
+- Run ```npm test testfile.test.js ``` on root directory to run test for a single file.
+
+## Future features
+
+- Add extra stages, weapons and effects.
+- Add more enemies
+- Add images in the dialogues scenes
+- Modify the assets
+- Add animations
+- Add a pause scene 
 
 ## Author
 
-### 1. Witah Georjane
-* Github: [@Georjane](https://github.com/Georjane)
-* Twitter: [@WittyJany](https://twitter.com/WittyJany)
-* LinkedIn: [Witah Georjane](https://www.linkedin.com/in/witah-georjane)
+👤 Javier Oriol Correas Sanchez Cuesta 
+- Github: [@javitocor](https://github.com/javitocor) 
+- Twitter: [@JavierCorreas4](https://twitter.com/JavierCorreas4) 
+- Linkedin: [Javier Oriol Correas Sanchez Cuesta](https://www.linkedin.com/in/javier-correas-sanchez-cuesta-15289482/) 
 
-## Contributing
-There are two ways of contributing to this project:
+## 🤝 Contributing
 
-1. If you see something wrong or not working, please open the issue in issue section
-2. If you see something to improve or to correct, and you have a solution to that, follow the below steps to contribute:
-    1. Fork this repository
-    2. Clone it on your local computer by running `git clone https://github.com/Georjane/game-with-phaser.git` __Replace *your username* with the username you use on github__
-    3. Open the cloned repository which appears as a folder on your local computer with your favorite code editor
-    4. Create a separate branch off the *master branch*,
-    5. Write your codes which fix the issue you found
-    6. Commit and push the branch you created
-    7. Open a pull request, comparing your new created branch with our original master branch [here](https://github.com/Georjane/game-with-phaser/pulls)
+Contributions, issues and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgment
-* [Microverse](https://www.microvese.org)
-* [The Odin Project](https://www.theodinproject.com)
+## Acknowledgments 🚀
+
+- Phaser 3 docs
+- StackOverFlow
+- Microverse
+- https://opengameart.org/
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/javitocor/Dung-Salvation-Shooter-Game-JS.svg?style=flat-square
+[contributors-url]: https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/javitocor/Dung-Salvation-Shooter-Game-JS.svg?style=flat-square
+[forks-url]: https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS/network/members
+[stars-shield]: https://img.shields.io/github/stars/javitocor/Dung-Salvation-Shooter-Game-JS.svg?style=flat-square
+[stars-url]: https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS/stargazers
+[issues-shield]: https://img.shields.io/github/issues/javitocor/Dung-Salvation-Shooter-Game-JS.svg?style=flat-square
+[issues-url]: https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS/issues
