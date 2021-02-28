@@ -28,7 +28,7 @@ Kindly check my Game Design Document [GDD](assets/docs/gamedesigndocument.md)
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://georjane.github.io/game-with-phaser/)
 
 ## Instructions to Play
 
