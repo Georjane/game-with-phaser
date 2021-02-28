@@ -1,5 +1,5 @@
 {
-  "name": "Dung-Salvation-Shooter-Game-JS",
+  "name": "game-with-phaser",
   "version": "1.0.0",
   "description": "Shooter game built with Javascript using Phaser and Webpack. Capstone Project for Microverse on the top of my Javascript knowledge.",
   "main": "src/index.js",
@@ -12,16 +12,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS.git"
+    "url": "git+https://github.com/Georjane/game-with-phaser.git"
   },
   "keywords": [],
-  "author": "Javier Correas",
+  "author": "Georjane <pzgeorjane@gmail.com>",
   "license": "MIT",
   "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
   "bugs": {
-    "url": "https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS/issues"
+    "url": "https://github.com/Georjane/game-with-phaser/issues"
   },
-  "homepage": "https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS#readme",
+  "homepage": "https://github.com/Georjane/game-with-phaser/readme",
   "devDependencies": {
     "@babel/core": "^7.10.5",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
