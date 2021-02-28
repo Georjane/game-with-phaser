@@ -1,36 +1,14 @@
-<!--
-*** Thanks for checking out this README Template. If you have a suggestion that would
-*** make this better, please fork the repo and create a pull request or simply open
-*** an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
--->
-
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url] 
-[![Forks][forks-shield]][forks-url] 
-[![Stargazers][stars-shield]][stars-url] 
-[![Issues][issues-shield]][issues-url] 
-![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/default/yes.svg) 
-
-# Dung-Salvation-Shooter-Game-JS
+# Rescue The Princess Shooter-Game-JS
 
 >  Shooter game built with Javascript using Phaser and Webpack. Capstone Project for Microverse on the top of my Javascript knowledge.
 
-Landing Page:
+### Landing Page:
+
 ![screenshot](./assets/screenshots/title.png)
 
-First Stage:
-![screenshot](./assets/screenshots/game.png)
+### Stage 1:
 
-Animated GIF:
-![](game.gif)
+![screenshot](./assets/screenshots/game.png)
 
 ## Game Design Document
 
@@ -38,8 +16,7 @@ Kindly check my Game Design Document [GDD](assets/docs/gamedesigndocument.md)
 
 ## Built With
 
-- HTML 
-- CSS
+- HTML
 - JAVASCRIPT
 - PHASER 3
 - NPM
@@ -51,7 +28,7 @@ Kindly check my Game Design Document [GDD](assets/docs/gamedesigndocument.md)
 
 ## Live Demo
 
-[Live Demo Link](https://javitocor.github.io/Dung-Salvation-Shooter-Game-JS/) :point_left:
+[Live Demo Link]()
 
 ## Instructions to Play
 
@@ -81,18 +58,14 @@ Kindly check my Game Design Document [GDD](assets/docs/gamedesigndocument.md)
 
 - Use the mouse for the non-game and dialogues screens.
 
-- ENJOY!
+- Have Fun Playing!
 
 
 ## Getting Started
 
 ### Usage
 
-- Click the Live Demo link and enjoy playing Dung Salvation.
-
-### Prerequisites
-
-- A modern browser, up to date.  :muscle:
+- Click the Live Demo link and enjoy playing the shooter game.
 
 ### Setup
 
@@ -105,8 +78,6 @@ Kindly check my Game Design Document [GDD](assets/docs/gamedesigndocument.md)
 ### Run tests
 
 - Run ```npm test``` on the root directory to run all the tests.
-- Run `npm test -- --verbose` on the root directory to run all the tests and see for what it is each test.
-- Run ```npm test testfile.test.js ``` on root directory to run test for a single file.
 
 ## Future features
 
@@ -119,39 +90,28 @@ Kindly check my Game Design Document [GDD](assets/docs/gamedesigndocument.md)
 
 ## Author
 
-👤 Javier Oriol Correas Sanchez Cuesta 
-- Github: [@javitocor](https://github.com/javitocor) 
-- Twitter: [@JavierCorreas4](https://twitter.com/JavierCorreas4) 
-- Linkedin: [Javier Oriol Correas Sanchez Cuesta](https://www.linkedin.com/in/javier-correas-sanchez-cuesta-15289482/) 
+### 1. Witah Georjane
+* Github: [@Georjane](https://github.com/Georjane)
+* Twitter: [@WittyJany](https://twitter.com/WittyJany)
+* LinkedIn: [Witah Georjane](https://www.linkedin.com/in/witah-georjane)
 
-## 🤝 Contributing
+## Contributing
+There are two ways of contributing to this project:
 
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS/issues).
+1. If you see something wrong or not working, please open the issue in issue section
+2. If you see something to improve or to correct, and you have a solution to that, follow the below steps to contribute:
+    1. Fork this repository
+    2. Clone it on your local computer by running `git clone https://github.com/Georjane/game-with-phaser.git` __Replace *your username* with the username you use on github__
+    3. Open the cloned repository which appears as a folder on your local computer with your favorite code editor
+    4. Create a separate branch off the *master branch*,
+    5. Write your codes which fix the issue you found
+    6. Commit and push the branch you created
+    7. Open a pull request, comparing your new created branch with our original master branch [here](https://github.com/Georjane/game-with-phaser/pulls)
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
-## Acknowledgments 🚀
-
-- Phaser 3 docs
-- StackOverFlow
-- Microverse
-- https://opengameart.org/
-
-## 📝 License
-
-This project is [MIT](lic.url) licensed.
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/javitocor/Dung-Salvation-Shooter-Game-JS.svg?style=flat-square
-[contributors-url]: https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/javitocor/Dung-Salvation-Shooter-Game-JS.svg?style=flat-square
-[forks-url]: https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS/network/members
-[stars-shield]: https://img.shields.io/github/stars/javitocor/Dung-Salvation-Shooter-Game-JS.svg?style=flat-square
-[stars-url]: https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS/stargazers
-[issues-shield]: https://img.shields.io/github/issues/javitocor/Dung-Salvation-Shooter-Game-JS.svg?style=flat-square
-[issues-url]: https://github.com/javitocor/Dung-Salvation-Shooter-Game-JS/issues
+## Acknowledgment
+* [Microverse](https://www.microvese.org)
+* [The Odin Project](https://www.theodinproject.com)
