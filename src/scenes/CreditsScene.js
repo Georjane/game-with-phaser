@@ -9,7 +9,7 @@ export default class CreditsScene extends Phaser.Scene {
   create() {
     this.cameras.main.setBackgroundColor('#000111');
     this.creditsText = this.add.bitmapText(0, 0, 'arcade', 'Credits', 32);
-    this.madeByText1 = this.add.bitmapText(0, 0, 'arcade', 'Created By: Javier Correas', 26);
+    this.madeByText1 = this.add.bitmapText(0, 0, 'arcade', 'Created By: Georjane', 26);
     this.madeByText2 = this.add.bitmapText(0, 0, 'arcade', 'Thanks to Microverse', 26);
     this.madeByText3 = this.add.bitmapText(0, 0, 'arcade', 'Thanks to Opengameart.org', 26);
     this.image1 = this.add.image(400, 200, 'logo');

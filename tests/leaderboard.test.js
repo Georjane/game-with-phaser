@@ -51,7 +51,7 @@ describe('Testing the API functionality', () => {
     setScore.mockResolvedValue({
       result: 'Leaderboard score created correctly.',
     });
-    const success = await setScore('Dung', 50000);
+    const success = await setScore('Princess', 50000);
     expect(success.result).toMatch('Leaderboard score created correctly.');
   });
 });

@@ -20,7 +20,7 @@ export default class EndGameScene extends Phaser.Scene {
     this.image = this.add.image(550, 300, 'tintin');
     this.text2 = this.add.bitmapText(490, 220, 'arcade', 'Captain Tintin', 9);
     this.image2 = this.add.image(275, 300, 'princess');
-    this.text3 = this.add.bitmapText(215, 220, 'arcade', 'Princess Dung', 9);
+    this.text3 = this.add.bitmapText(215, 220, 'arcade', 'Princess', 9);
 
     this.backgrounds = [];
     for (let i = 0; i < 5; i += 1) {

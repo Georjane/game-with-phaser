@@ -1,11 +1,11 @@
 # Introduction
 
-This is a 5 day project for Microverse, in this time I have had to learn how to use the Phaser 3 framework, create the story, find the different assets, test the game and meet all the given requirements.
+This is a JS Capstone project for Microverse, where I had to learn how to use the Phaser 3 framework, create the story, find the different assets, test the game and meet all the given requirements.
 
 # Story
 
 In a galaxy far, far away, a civil war is brewing. The Rebels have infiltrated the highest spheres of the Galactic Democratic Government to take power and thus be able to dominate the galaxy under their orders.
-The Rebels, after their first battle won, have managed to kidnap Princess Dung, who guarded important information to end the rebels and thus also the war.
+The Rebels, after their first battle won, have managed to kidnap Princess, who guarded important information to end the rebels and thus also the war.
 The Galactic Democratic Government, seeing that its supremacy is in jeopardy, decide to send its best pilot, Captain Tintin, on a rescue mission ...
 
 # GamePlay
