@@ -16,4 +16,7 @@ describe('Testing GetStore function', () => {
     window.localStorage.setItem('score', JSON.stringify(1250));
     expect(getScore('non space')).toEqual(1250);
   });
+  it('Should not return any number as score if is the first stage', () => {
+    expect(getScore('space')).not.toBe(1000);
+  });
 });
